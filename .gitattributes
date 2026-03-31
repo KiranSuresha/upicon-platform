@@ -1,0 +1,7 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+*.js eol=lf
+*.ts eol=lf
+*.tsx eol=lf
+*.jsx eol=lf
+*.json eol=lf
