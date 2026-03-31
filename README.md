@@ -7,6 +7,7 @@ A production-grade Next.js 14 web application providing agentic intelligence and
 The UPICON Command Platform is designed around an **MD Command Center** providing real-time cross-division intelligence, with AI assistants (copilots) embedded throughout each division's workflow.
 
 **Key Features:**
+
 - 📊 Executive dashboard with real-time KPIs and analytics
 - 🏦 Banking & Financial Inclusion module (BC lifecycle, kiosk ops, transaction monitoring)
 - 📋 Consultancy & G2G module (DPR/TEV production, survey ops, knowledge management)
@@ -47,6 +48,7 @@ npm install
 ```
 
 This will install all required packages from `package.json` including:
+
 - **Next.js 14** - React framework
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling
@@ -117,30 +119,31 @@ upicon-platform/
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| **Framework** | Next.js 14 (App Router) |
-| **Language** | TypeScript (strict mode) |
-| **Styling** | Tailwind CSS + Tailwind Merge |
+| Layer             | Technology                               |
+| ----------------- | ---------------------------------------- |
+| **Framework**     | Next.js 14 (App Router)                  |
+| **Language**      | TypeScript (strict mode)                 |
+| **Styling**       | Tailwind CSS + Tailwind Merge            |
 | **UI Components** | Radix UI primitives + shadcn/ui patterns |
-| **Charts** | Recharts |
-| **Tables** | TanStack React Table v8 |
-| **Icons** | Lucide React |
-| **State** | Zustand |
-| **Fonts** | Inter (via next/font/google) |
+| **Charts**        | Recharts                                 |
+| **Tables**        | TanStack React Table v8                  |
+| **Icons**         | Lucide React                             |
+| **State**         | Zustand                                  |
+| **Fonts**         | Inter (via next/font/google)             |
 
 ## 📝 Available npm Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build for production |
-| `npm start` | Run production build |
-| `npm run lint` | Run ESLint to check code quality |
+| Script          | Description                              |
+| --------------- | ---------------------------------------- |
+| `npm run dev`   | Start development server with hot reload |
+| `npm run build` | Build for production                     |
+| `npm start`     | Run production build                     |
+| `npm run lint`  | Run ESLint to check code quality         |
 
 ## 🔑 Key Features by Division
 
 ### Banking & Financial Inclusion
+
 - Business Correspondent (BC) lifecycle management
 - Lead capture and routing (BC Mobilize)
 - Customer onboarding workflows (BC Onboard)
@@ -148,12 +151,14 @@ upicon-platform/
 - Activity monitoring and kiosk operations (BC Quality)
 
 ### Consultancy & G2G
+
 - DPR drafting with AI copilot assistance
 - TEV appraisal workspace
 - Field survey operations management
 - Knowledge hub and SOP repository
 
 ### Training & Skilling
+
 - Trainer-OS for attendance and batch management
 - Assessment engine for skill evaluation
 - Beneficiary post-training support
@@ -162,6 +167,7 @@ upicon-platform/
 ## 🎨 Design System
 
 The platform uses a custom design system with:
+
 - **Color tokens** for consistent branding
 - **Responsive components** built with Radix UI
 - **Dark/Light mode** support via next-themes
@@ -191,13 +197,13 @@ For comprehensive architecture documentation, design patterns, and implementatio
 
 ## 📋 Roadmap
 
-| Phase | Description |
-|-------|-------------|
-| **Phase 0** (Current) | Skeleton UI with mock data — all pages, navigation, components |
-| **Phase 1** | Connect to real APIs — replace mock data with live UPICON systems |
-| **Phase 2** | Integrate Claude AI — wire chat interfaces to Anthropic API with streaming |
-| **Phase 3** | WhatsApp / PWA layer — add responsive PWA and WhatsApp webhook integration |
-| **Phase 4** | Analytics & Reporting — real-time dashboards, scheduled PDF reports |
+| Phase                 | Description                                                                |
+| --------------------- | -------------------------------------------------------------------------- |
+| **Phase 0** (Current) | Skeleton UI with mock data — all pages, navigation, components             |
+| **Phase 1**           | Connect to real APIs — replace mock data with live UPICON systems          |
+| **Phase 2**           | Integrate Claude AI — wire chat interfaces to Anthropic API with streaming |
+| **Phase 3**           | WhatsApp / PWA layer — add responsive PWA and WhatsApp webhook integration |
+| **Phase 4**           | Analytics & Reporting — real-time dashboards, scheduled PDF reports        |
 
 ## 📄 License
 
